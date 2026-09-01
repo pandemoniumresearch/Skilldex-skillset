@@ -39,6 +39,24 @@ Both `conventional-commit` and `changelog-gen` reference this file as their shar
 | `chore` | Miscellaneous tasks | — (omit from changelog) |
 | `revert` | Reverts a previous commit | Fixed |
 
+The same mapping, declared so `skillpm skillset validate` can hold every member of this skillset
+to it. Any member that restates this table and disagrees is a validation error, not a silent drift.
+
+```yaml skilldex-conventions
+commit-type-to-changelog-section:
+  feat: Added
+  fix: Fixed
+  revert: Fixed
+  refactor: Changed
+  perf: Changed
+  docs: omit
+  style: omit
+  test: omit
+  build: omit
+  ci: omit
+  chore: omit
+```
+
 ---
 
 ## Scope Examples
