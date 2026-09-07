@@ -15,6 +15,12 @@ Use this skill when the user wants to analyze one or more competitors in a struc
 - `references/analysis-framework.md` — defines the evaluation dimensions and what to look for in each one. Load this before analyzing any competitor. Apply the framework consistently across all competitors so the output is directly comparable.
 - `assets/report-template.md` — the output structure. Load it and fill every section. Do not invent new sections or omit existing ones.
 
+### Shared reference
+
+Load `../assets/audience-personas.md`. Step 1 asks who the report is for; this file defines the audience archetypes shared across this skillset — each with a vocabulary level, assumed prior knowledge, and preferred level of detail.
+
+Match the stated audience to the closest persona and hold to that profile throughout, so a competitive analysis reads at the same register as anything else this skillset produces for the same reader.
+
 ### Workflow
 
 1. **Gather inputs**: Ask the user for:

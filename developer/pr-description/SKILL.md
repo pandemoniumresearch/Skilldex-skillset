@@ -14,6 +14,12 @@ Use this skill when the user wants to write or fill in a pull request descriptio
 
 Load `assets/pr-template.md` and use it as the exact output structure. Do not invent a different layout. Fill in every section — if a section genuinely does not apply, write "N/A" rather than omitting the heading.
 
+### Shared conventions
+
+Load `../assets/commit-conventions.md`. The PR title uses the same `type(scope):` form as a commit, and the type you pick determines which changelog section the change lands in — so it must agree with the commit convention the rest of this skillset follows, not a per-PR judgement call.
+
+When the branch name already carries a type (`fix/null-pointer-on-login`), prefer it. Otherwise infer the type from the diff using the same table.
+
 ### Inputs to gather
 
 Before writing, make sure you have:

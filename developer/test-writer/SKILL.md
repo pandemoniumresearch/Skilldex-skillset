@@ -48,3 +48,4 @@ Use this skill when the user wants to write tests for a specific function, modul
 - Match the existing test file structure precisely — if the project uses flat `test()` calls, don't introduce `describe` blocks
 - If you cannot determine a convention from the existing files, ask before guessing
 - Write one test file at a time; if the user wants tests for multiple files, address them sequentially
+- When suggesting a commit for the generated tests, follow `../assets/commit-conventions.md` — tests are the `test` type, scoped to the area under test (`test(auth): ...`), which keeps them out of the changelog
