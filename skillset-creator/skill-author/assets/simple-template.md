@@ -9,7 +9,9 @@ Use this as a starting point for Tier 1 skills. Replace every `<placeholder>` wi
 name: <kebab-case-name>
 description: "<One sentence starting with a verb. ≤200 chars. Describes what the skill does, not what it is.>"
 version: "1.0.0"
-tags: [<tag1>, <tag2>]
+tags:
+  - <tag1>
+  - <tag2>
 author: <author-handle>
 ---
 

@@ -2,7 +2,11 @@
 name: pr-description
 description: "Generates structured pull request descriptions from the staged diff and branch name. Fills in a standard PR template covering summary, what changed and why, testing steps, and any notes for reviewers — so you spend time on the code, not on writing boilerplate."
 version: "1.0.0"
-tags: [git, pull-request, developer, workflow]
+tags:
+  - git
+  - pull-request
+  - developer
+  - workflow
 author: skilldex-examples
 ---
 

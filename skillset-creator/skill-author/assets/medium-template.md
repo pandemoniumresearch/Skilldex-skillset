@@ -13,7 +13,9 @@ The `assets/` directory holds output templates or small data files the skill ref
 name: <kebab-case-name>
 description: "<One sentence starting with a verb. ≤200 chars.>"
 version: "1.0.0"
-tags: [<tag1>, <tag2>]
+tags:
+  - <tag1>
+  - <tag2>
 author: <author-handle>
 ---
 

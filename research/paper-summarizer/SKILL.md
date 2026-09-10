@@ -2,7 +2,12 @@
 name: paper-summarizer
 description: "Produces structured summaries of academic or technical papers. Fills a consistent template covering abstract, key contributions, method, results, limitations, and relevance. Calibrates terminology and depth to a named audience using the shared audience personas reference — so the summary is useful to the right reader, not just accurate."
 version: "1.0.0"
-tags: [research, summarization, academic, papers, writing]
+tags:
+  - research
+  - summarization
+  - academic
+  - papers
+  - writing
 author: skilldex-examples
 ---
 

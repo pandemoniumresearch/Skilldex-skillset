@@ -2,7 +2,13 @@
 name: test-writer
 description: "Writes tests that match your project's existing test patterns and conventions. Detects the test framework in use, reads nearby test files to understand naming and structure conventions, and generates tests for the code you point it at — without introducing a different style."
 version: "1.0.0"
-tags: [testing, developer, jest, vitest, pytest, workflow]
+tags:
+  - testing
+  - developer
+  - jest
+  - vitest
+  - pytest
+  - workflow
 author: skilldex-examples
 ---
 

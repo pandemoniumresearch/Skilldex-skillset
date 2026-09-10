@@ -2,7 +2,12 @@
 name: research
 description: "A collection of Claude skills for research, analysis, and synthesis tasks. Covers explaining technical topics to different audiences, producing structured summaries of academic and technical papers, and generating detailed competitive analysis reports from provided information."
 version: "1.0.0"
-tags: [research, analysis, synthesis, writing, explainer]
+tags:
+  - research
+  - analysis
+  - synthesis
+  - writing
+  - explainer
 author: skilldex-examples
 spec_version: "1.0"
 ---

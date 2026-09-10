@@ -2,7 +2,11 @@
 name: conventional-commit
 description: "Writes well-formed commit messages following the Conventional Commits specification. Infers the commit type and scope from the staged diff and changed file paths, asks for clarification only when the intent is genuinely ambiguous, and formats the result ready to paste into your terminal."
 version: "1.0.0"
-tags: [git, commits, conventional-commits, developer]
+tags:
+  - git
+  - commits
+  - conventional-commits
+  - developer
 author: skilldex-examples
 ---
 

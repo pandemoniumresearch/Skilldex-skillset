@@ -2,7 +2,12 @@
 name: technical-explainer
 description: "Explains complex technical topics in plain language calibrated to a named audience. Loads a shared audience personas reference to determine vocabulary level, assumed prior knowledge, and preferred explanation style — so the explanation lands for that specific reader, not for a generic one."
 version: "1.0.0"
-tags: [explainer, writing, research, communication, education]
+tags:
+  - explainer
+  - writing
+  - research
+  - communication
+  - education
 author: skilldex-examples
 ---
 

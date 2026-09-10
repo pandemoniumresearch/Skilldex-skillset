@@ -2,7 +2,11 @@
 name: skillset-author
 description: "Guides you through designing and packaging a complete skillset — determines what skills belong together, writes the SKILLSET.md manifest, identifies shared assets, and produces the full directory layout with all skill files ready to install."
 version: "1.0.0"
-tags: [meta, skillset-authoring, developer, tooling]
+tags:
+  - meta
+  - skillset-authoring
+  - developer
+  - tooling
 author: skilldex-examples
 ---
 

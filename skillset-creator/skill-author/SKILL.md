@@ -2,7 +2,11 @@
 name: skill-author
 description: "Guides you through designing and writing a new Claude skill from scratch — determines the right complexity tier, writes the SKILL.md with correct frontmatter and instructions, and scaffolds any supporting assets, references, or scripts the skill needs."
 version: "1.0.0"
-tags: [meta, skill-authoring, developer, tooling]
+tags:
+  - meta
+  - skill-authoring
+  - developer
+  - tooling
 author: skilldex-examples
 ---
 
