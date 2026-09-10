@@ -9,7 +9,10 @@ This is the template for `SKILLSET.md`. Claude fills this in when authoring a ne
 name: <kebab-case-name>
 description: "<1–2 sentences describing the collection as a whole. Who is it for? What does it help them do?>"
 version: "1.0.0"
-tags: [<tag1>, <tag2>, <tag3>]
+tags:
+  - <tag1>
+  - <tag2>
+  - <tag3>
 author: <author-handle>
 spec_version: "1.0"
 ---

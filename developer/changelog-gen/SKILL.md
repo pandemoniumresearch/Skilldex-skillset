@@ -2,7 +2,12 @@
 name: changelog-gen
 description: "Produces CHANGELOG entries from git history following the Keep a Changelog format. Uses a bundled script to extract commits since the last tag, classifies them into changelog sections using the shared commit conventions reference, and outputs a ready-to-paste release block."
 version: "1.0.0"
-tags: [git, changelog, releases, developer, workflow]
+tags:
+  - git
+  - changelog
+  - releases
+  - developer
+  - workflow
 author: skilldex-examples
 ---
 

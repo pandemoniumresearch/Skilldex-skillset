@@ -15,7 +15,9 @@ Every skill lives in its own directory. The only required file is `SKILL.md`.
 name: kebab-case-name           # Required. Matches the directory name exactly.
 description: "..."              # Required. One sentence. Starts with a verb. Loaded into tool descriptions — keep it ≤200 chars.
 version: "1.0.0"               # Required. Semver.
-tags: [tag1, tag2]             # Required. At least one. Lowercase, hyphen-separated.
+tags:                          # Required. At least one. Lowercase, hyphen-separated.
+  - tag1
+  - tag2
 author: author-handle           # Required. Who wrote it.
 ---
 ```
@@ -127,7 +129,9 @@ Every skillset has one `SKILLSET.md` at its root.
 name: kebab-case-name           # Required. Matches the directory name.
 description: "..."              # Required. 1–2 sentences describing the collection as a whole.
 version: "1.0.0"               # Required. Semver. Bump when any skill in the set changes.
-tags: [tag1, tag2]             # Required. Union of tags across all skills, plus collection-level tags.
+tags:                          # Required. Union of tags across all skills, plus collection-level tags.
+  - tag1
+  - tag2
 author: author-handle           # Required.
 spec_version: "1.0"            # Required. Always "1.0" unless the spec itself is versioned.
 ---

@@ -2,7 +2,12 @@
 name: competitive-analysis
 description: "Generates structured competitor breakdowns from information you provide. Uses a bundled analysis framework to evaluate competitors across consistent dimensions — positioning, pricing, features, weaknesses, and moat — and outputs a formatted report ready to share with stakeholders or paste into a product document."
 version: "1.0.0"
-tags: [research, competitive-analysis, product, strategy, analysis]
+tags:
+  - research
+  - competitive-analysis
+  - product
+  - strategy
+  - analysis
 author: skilldex-examples
 ---
 

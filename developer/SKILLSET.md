@@ -2,7 +2,12 @@
 name: developer
 description: "A collection of Claude skills for everyday developer workflows. Covers commit message writing, pull request description generation, changelog production from git history, and test writing that matches a project's existing patterns and conventions."
 version: "1.0.0"
-tags: [developer, git, testing, workflow, productivity]
+tags:
+  - developer
+  - git
+  - testing
+  - workflow
+  - productivity
 author: skilldex-examples
 spec_version: "1.0"
 ---

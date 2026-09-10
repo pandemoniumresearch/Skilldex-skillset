@@ -2,7 +2,12 @@
 name: skillset-creator
 description: "A collection of Claude skills for authoring Claude skills and skillsets. Covers designing a single skill at the right complexity level, writing well-structured SKILL.md instructions, building supporting assets and references, and packaging multiple skills into a full skillset with a shared manifest."
 version: "1.0.0"
-tags: [meta, skill-authoring, skillset, developer, tooling]
+tags:
+  - meta
+  - skill-authoring
+  - skillset
+  - developer
+  - tooling
 author: skilldex-examples
 spec_version: "1.0"
 ---
